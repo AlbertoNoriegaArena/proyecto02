@@ -11,4 +11,31 @@ public class Pepe {
 
         return suma;
     }
+
+    public int operar(int numero1, int numero2, char operacion){
+            
+            int resultado =0;
+    
+            switch (operacion) {
+                case '+':
+                    resultado = numero1 + numero2;
+                    break;
+                case '-':
+                    resultado = numero1 - numero2;
+                    break;
+                case '*':
+                    resultado = numero1 * numero2;
+                    break;
+                case '/':
+                    resultado = numero1 / numero2;
+                    break;
+                default:
+                    break;
+            }
+    
+            return resultado;
+        }
+    
+  
+
 }
